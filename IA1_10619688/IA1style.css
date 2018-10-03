@@ -1,0 +1,82 @@
+.container{
+    width: 355px;
+    height: 355px;
+    border: thin solid #333333;
+    /*border: thick  crimson;*/
+    box-shadow: 2px 3px rgba(164,164,164, 0.8);
+    /*margin: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 150px;
+    background-color: darkmagenta;
+    background-image: url("imgs/material2.jpg") ;
+    position: center;
+    opacity: 0.87;
+    /*filter: blur(0.04px);*/
+}
+/*body:before{
+    background-image: url("imgs/hexagon.jpg");
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: blur(8px);
+}*/
+body{
+    background-image: url("imgs/chess.jpg");
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    /*opacity: 0.1;*/
+    /*filter: blur(8px);*/
+
+
+}
+
+.form img{
+    border-radius: 90px;
+    margin-top:-50px ;
+    margin-left: 100px;
+    /*opacity: 0.6;*/
+
+
+}
+input[type="text"], input[type="password"]{
+    height: 50px;
+    width: 210px;
+    margin-left: 60px;
+    /*padding-left: 9%;*/
+    border-color: darkorchid;
+    font:normal Trebuchet MS;
+    font-size: large;
+
+
+}
+
+button{
+    width: 190px;
+    /*background: rgba(10, 10, 199, 0.6);*/
+    background: crimson;
+    color: blue;
+    font-weight: bold;
+    font: large "Trebuchet MS";
+    height: 25px;
+    /*border: none chocolate;*/
+    border-radius: 60%;
+    cursor: pointer;
+    outline: darkorchid;
+    opacity: 0.2%;
+    margin-left: 60px;
+
+}
+
+label{
+    font: bolder 20px Trebuchet MS;
+    font-size: larger;
+    color: black;
+    position: relative;
+    margin-left: 60px;
+    /*padding-left: 35px;*/
+
+}
